@@ -2,6 +2,10 @@
 name = "bevy_random_loop"
 version = "0.1.0"
 edition = "2024"
+authors = ["xenon615"]
+keywords = ["gamedev", "bevy", "procedural"]
+categories = ["game-development"]
+
 
 [profile.dev]
 opt-level = 1
@@ -16,15 +20,15 @@ codegen-units = 1
 
 
 [dev-dependencies.bevy]
-version = "0.18.1"
+version = "0.19"
 default-features = false
 features = ["3d", "free_camera", "dynamic_linking"]
 
 [dependencies]
-fastrand = "2.3.0"
+fastrand = "2.4.1"
 
 [dependencies.bevy]
-version = "0.18.*"
+version = "0.19.*"
 default-features = false
 features = ["3d"]
 
